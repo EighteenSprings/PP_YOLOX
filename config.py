@@ -9,6 +9,10 @@ import yaml
 _C = CN()
 _C.BASE = ['']
 
+# global
+_C.OUTPUT_DIR = 'output'
+_C.EXP_NAME = 'yolox_nano'
+
 _C.DATA = CN()
 _C.DATA.TYPE = 'coco'
 _C.DATA.NUM_CLASSES = 80
