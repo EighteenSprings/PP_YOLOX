@@ -4,6 +4,9 @@ Update:
     Msg: Megvii YOLOX got an good project template, so I decide
          to imitate(copy) it (●'◡'●)
 """
+from loguru import logger
+from yolox.utils import setup_logger
+
 
 class Trainer:
     def __init__(self):
@@ -30,9 +33,10 @@ class Trainer:
             self.train_one_iter()
             self.after_iter()
 
-    def train_one_Iter(self):
+    def train_one_iter(self):
         pass
 
 
     # detail
+    
     

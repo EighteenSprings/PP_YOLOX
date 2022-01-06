@@ -1,0 +1,14 @@
+DATA:
+  TYPE: coco
+  NUM_CLASSES: 80
+  INPUT_SIZE: (480, 480)
+  RANDOM_SCALE: (15, 24)
+
+
+MODEL:
+  DEPTH: 0.33
+  WIDTH: 0.25
+  DEPTHWISE: true
+  ACT: silu
+
+
